@@ -164,17 +164,17 @@ li {
   margin-bottom: 70px;
 }
 
-.ranking article {
+.ranking-article {
   margin-bottom: 30px;
 }
 
-.ranking a {
+.ranking-link {
   display: block;
   margin-top: 5px;
   text-align: left;
 }
 
-.ranking a:visited {
+.ranking-link:visited {
   color: #202020;
 }
 
@@ -182,7 +182,7 @@ li {
   text-align: center;
 }
 
-.archive a:visited {
+.archive-link:visited {
   color: #202020;
 }
 
