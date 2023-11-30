@@ -26,7 +26,7 @@ li {
   margin-left: 50px;
   font-family: Arial, Helvetica, sans-serif;
   font-weight: normal;
-  font-size: 1.8em;
+  font-size: 1.8rem;
 }
 
 .title a {
@@ -70,13 +70,13 @@ li {
 
 .topic-title {
   margin-top: 12px 0 16px 0;
-  font-size: 1em;
+  font-size: 1rem;
 }
 
 .readmore {
   color: #626262;
   text-align: center;
-  font-size: 0.8em;
+  font-size: 0.8rem;
 }
 
 .readmore a {
@@ -142,7 +142,7 @@ li {
 
 #right-container p,
 #right-container a {
-  font-size: 0.9em;
+  font-size: 0.9rem;
   text-align: left;
 }
 
