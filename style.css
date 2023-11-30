@@ -1,7 +1,8 @@
 body {
   color: #202020;
   font-size: 1rem;
-  font-family: "Helvetica Neue", Arial, "Hiragino Kaku Gothic ProN", "Hiragino Sans", "BIZ UDPGothic", Meiryo, sans-serif;
+  font-family: "Helvetica Neue", Arial, "Hiragino Kaku Gothic ProN",
+    "Hiragino Sans", "BIZ UDPGothic", Meiryo, sans-serif;
 }
 
 header {
@@ -25,7 +26,7 @@ li {
   margin-left: 50px;
   font-family: Arial, Helvetica, sans-serif;
   font-weight: normal;
-  font-size: 1.8em;
+  font-size: 1.8rem;
 }
 
 .title a {
@@ -39,7 +40,7 @@ li {
   display: flex;
   font-size: 0.9rem;
   line-height: 1.6;
-  place-content:flex-start;
+  place-content: flex-start;
   margin: 0 auto;
 }
 
@@ -69,13 +70,13 @@ li {
 
 .topic-title {
   margin-top: 12px 0 16px 0;
-  font-size: 1em;
+  font-size: 1rem;
 }
 
 .readmore {
   color: #626262;
   text-align: center;
-  font-size: 0.8em;
+  font-size: 0.8rem;
 }
 
 .readmore a {
@@ -84,7 +85,7 @@ li {
 }
 
 .readmore a::before {
-  content: '';
+  content: "";
   position: absolute;
   top: 100%;
   left: 0;
@@ -116,7 +117,7 @@ li {
 }
 
 .article-header {
-  display:flex;
+  display: flex;
   justify-content: flex-start;
   margin-bottom: 10px;
   padding: 0;
@@ -130,6 +131,27 @@ li {
   padding: 10px 40px;
 }
 
+footer {
+  background-color: #f7f7f7;
+  font-size: 0.9rem;
+}
+
+#footer-container {
+  padding: 50px 16px;
+}
+
+.footer-section {
+  width: 30%;
+}
+
+.footer-section h3 {
+  margin-bottom: 30px;
+}
+
+footer a:visited {
+  color: #202020;
+}
+
 #right-container {
   width: 30%;
   padding: 30px 20px 20px 0;
@@ -141,7 +163,7 @@ li {
 
 #right-container p,
 #right-container a {
-  font-size: 0.9em;
+  font-size: 0.9rem;
   text-align: left;
 }
 
@@ -163,17 +185,17 @@ li {
   margin-bottom: 70px;
 }
 
-.ranking article {
+.ranking-article {
   margin-bottom: 30px;
 }
 
-.ranking a {
+.ranking-link {
   display: block;
   margin-top: 5px;
   text-align: left;
 }
 
-.ranking a:visited {
+.ranking-link:visited {
   color: #202020;
 }
 
@@ -181,7 +203,7 @@ li {
   text-align: center;
 }
 
-.archive a:visited {
+.archive-link:visited {
   color: #202020;
 }
 
@@ -196,33 +218,29 @@ li {
   text-align: left;
 }
 
-footer {
-  background-color: #f7f7f7;
-  font-size: 0.9rem;
-}
-
-footer a:visited {
-  color: #202020;
-}
-
-#footer-container {
-  padding: 50px 16px;
-}
-
-.footer-section {
-  width: 30%;
-}
-
-.footer-section h3 {
-  margin-bottom: 30px;
-}
-
 .about-list {
   padding-left: 0;
 }
 
 .about-list li {
   margin-top: 10px;
+}
+
+.about-item {
+  position: relative;
+  padding-left: 20px;
+}
+
+.about-item::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+  width: 0;
+  height: 0;
+  border: 0.3rem solid transparent;
+  border-left: 0.5rem solid #000;
 }
 
 .copyright {
